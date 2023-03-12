@@ -1,0 +1,61 @@
+body {
+  background: rgb(239, 240, 180);
+
+
+}
+
+.dullText {
+  font-style: normal;
+}
+
+.boldText {
+
+  font-weight: bold;
+}
+
+.fancyText {
+  font-style: italic;
+  font-size: 1.1em
+}
+
+
+.box {
+
+
+  background: #1c304a;
+  outline: 2px solid #FFFDFE;
+  outline-offset: -10px;
+  text-align: center;
+
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.7rem;
+  color: #FFFDFE;
+  margin: 5px 0;
+  height: 100px;
+  width: 100px;
+  line-height: 3.5;
+
+}
+
+
+
+.main {
+
+  width: 330px;
+  cursor: pointer;
+
+}
+
+
+.box:hover {
+  background: rgba(174, 244, 255, 0.671);
+  color: rgb(108, 108, 108);
+}
+
+.box:focus {}
+
+.winner {
+  background: #48ceff;
+  color: rgb(0, 94, 255);
+}
